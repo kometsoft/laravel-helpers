@@ -1,0 +1,28 @@
+{
+  "name": "kometsoft/laravel-helpers",
+  "description": "A set of helpers for Laravel projects.",
+  "authors": [
+    {
+      "name": "aerrata",
+      "email": "0x0976@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kometsoft\\Helpers\\": "src/"
+    },
+    "classmap": [
+      "/"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kometsoft\\Helpers\\HelpersServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
