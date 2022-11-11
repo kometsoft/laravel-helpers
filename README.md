@@ -5,8 +5,6 @@
 
 ## Installations
 
-#### Install npm dependencies
-
 After a fresh laravel installation, run;
 
 ```
